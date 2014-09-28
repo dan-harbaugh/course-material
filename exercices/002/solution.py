@@ -2,9 +2,6 @@
 """
 Exercise 002
 """
-import sys
-argument=sys.argv[1]
-
 def reverse_string(string):
   length = len(string)
   reverse_string=''
@@ -16,4 +13,4 @@ def reverse_string(string):
     length = length - 1
   return reverse_string
 
-print (reverse_string(sys.argv[1]))
+print (reverse_string("abcdefghijklmnopqrstuvwxyz"))
