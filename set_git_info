@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git config --global user.email "dan-harbaugh@outlook.com"
+git config --global user.name "Dan Harbaugh"
+git config --global push.default simple
